@@ -1,0 +1,68 @@
+.home{
+    width: 80%;
+    margin: auto;
+}
+.home input{
+    margin-top: 40px;
+    border: 2px solid #525ded;
+    color: #525ded;
+    font-weight: 550;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px; 
+    float: right;
+    height: 25px;
+    width: 300px;
+    padding: 10px 0 10px 60px;
+    background-image: url(../../Assets/search.png);
+    background-repeat: no-repeat;
+    background-size:25px;
+    background-position:5%;
+}
+.home input::placeholder{
+    color: #525ded;
+    font-size: 20px;
+    font-weight: 550;
+}
+.home .main{
+    text-align: left;
+    width: 110%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main .info h1{
+    font-size: 45px;
+    font-weight: 900;
+    margin-top: -25px;
+}
+.main .info h4{
+    font-size: 25px;
+    font-weight: 400;
+    color: #525ded;
+}
+.main .info p{
+    color: #a6aaab;
+    font-weight: 800;
+    font-size: 23px;
+}
+.main .info h1 span{
+    border-bottom: 8px solid #ffa500;
+}
+.main .info table{
+    border: 2px solid #525ded;
+    border-spacing: 0;
+    border-radius: 5px;
+}
+.main .info table td{
+    font-size: 20px;
+    padding: 13px;
+    font-weight: 500;
+    color: #525ded;
+}
+.main .info table td:nth-child(1){
+    background-color: #525ded;
+    color: white;
+}

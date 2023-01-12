@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.nav-bar ul {
+    list-style: none;
+}
+.nav-bar ul li{
+    display: inline;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.nav-bar ul li:nth-child(5){
+    background-color: #525ded;
+    padding: 18px;
+    border-radius: 3px;
+    margin-left: 33px;
+}
+.nav-bar ul li:nth-child(1) a{
+    color: black;
+}
+.nav-bar ul li:nth-child(5) a{
+    color: white;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color:grey;
+}

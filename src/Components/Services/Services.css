@@ -1,0 +1,78 @@
+.services{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 12% auto 2% auto;
+}
+.services .left,
+.services .right{
+    width: 43%;
+}
+.services .card{
+    border: 2px solid #c9cecf   ;
+    width: 86%;
+    height: 92vh;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20%;
+}
+.services .card img{
+    margin-top: 9%;
+}
+
+.services .card h2,
+.services .card p
+{
+    text-align: left;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.services .card h2{
+    font-weight: 600;
+    font-size: 25px;
+}
+.services  .card p{
+    font-size: 20px;
+    color: #a6aaab;
+}
+.services  .card p span{
+    color: #525ded;
+}
+.services  .card .data a{
+    text-decoration: none;
+    color: #525ded;
+}
+.learn{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    width: 32%;
+}
+.services .right .el,
+.services .left .el{
+    text-align: left;
+}
+.services .left .el p{
+    margin-bottom: 22%;
+}
+.services .right .el h,
+.services .left .el h{
+
+    font-size: 25px;
+    font-weight: 500;
+    width: 100%;
+}
+.services .right .el {
+    width: 90%;
+    margin-top: -22px;
+}
+.services .right .el p{
+    width: 63%;
+    font-size: 22px;
+    color: #525ded;
+}
+.services .left .el p{
+    margin-top: 18px;
+    font-size: 24px;
+    color: #525ded;
+}
